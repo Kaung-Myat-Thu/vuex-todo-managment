@@ -49,7 +49,6 @@ const actions = {
       `https://jsonplaceholder.typicode.com/todos/${updTodo.id}`,
       updTodo
     );
-
     commit("updateTodo", response.data);
   },
 };
